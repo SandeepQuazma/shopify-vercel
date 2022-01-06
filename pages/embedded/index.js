@@ -67,7 +67,7 @@ export default function Index() {
 
         <Layout.Section>
           <Card>
-            {/* <ResourceList
+            { <ResourceList
               title="List of Products"
               resourceName={{singular: 'product', plural: 'products'}}
               items={products}
@@ -89,7 +89,7 @@ export default function Index() {
                   </ResourceItem>
                 );
               }}
-            /> */}
+            /> }
           </Card>
         </Layout.Section>
 
